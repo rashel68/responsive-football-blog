@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.banner-part{
+    display: flex;
+    justify-content: center;
+    padding: 42px 0px;
+    background-color: blue;
+    margin-bottom: 70px;
+}
+.banner-container{
+    width: 1160px;
+}
+.nav-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 62px;
+}
+.nav ul{
+    margin: 0;
+    list-style: none;
+    display: inline;
+}
+.nav li{
+    
+    float: left;
+}
+.nav li a{
+    color: white;
+    margin-right: 35px;
+    font-size: 16px;
+}
+.login button{
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+}
+.login button i{
+    margin-right: 8px;
+}
+
+.banner-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-item h2{
+    margin: 0;
+    font-size: 64px;
+    line-height: 80px;
+    color: white;
+    margin-bottom: 27px;
+}
+.watch {
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+}
+.watch > i{
+    margin-left: 8px;
+}
+.banner-item img{
+    width: 556px;
+    height: 438px;
+    transition: transform 0.6s;
+}
+.banner-part:hover .banner-item img{
+    transform: skew(-5deg);
+}
+
+.blogs-part{
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    justify-content: center;
+    margin-bottom: 165px;
+}
+.blog{
+    padding: 15px 15px 33px;
+    background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.blog img{
+    width: 100%;
+}
+.blog h3{
+    margin: 0px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #18191F;
+    padding: 16px 0px 10px;
+}
+.blog p{
+    margin: 0;
+    font-size: 16px;
+    color: #6c6c6c;
+}
+.highlight-part{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 158px;
+}
+.highlight-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.highlight-image img{
+    width: 567px;
+    height: 427px;
+}
