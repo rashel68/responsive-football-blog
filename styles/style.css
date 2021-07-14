@@ -44,6 +44,8 @@ a{
     margin-right: 35px;
 }
 .login button{
+    font-size: 16px;
+    font-weight: bold;
     padding: 10px 24px;
     background-color: #E02C6D;
     color: white;
@@ -166,8 +168,10 @@ a{
 .trending-visitor-container{
     width: 1050px;
 }
+/* this style also use visitor section  */
 .trending-visitor-container h2 {
     font-size: 30px;
+    color: #10171D;
     margin-top: 0px;
     padding: 0px 0px 15px;
     border-bottom: 2px solid #dfdfdf;
@@ -189,6 +193,11 @@ a{
     width: 100%;
     border-radius: 15px;
 }
+.trending > p{
+    font-size: 16px;
+    color: #6c6c6c;
+}
+/* visitor-part start */
 .visitor-part{
     margin-bottom: 100px;
 }
@@ -197,7 +206,6 @@ a{
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 50px;
 }
-/* visitor-part start */
 .visitor{
     display: flex;
     justify-content: space-between;
@@ -207,6 +215,11 @@ a{
 .visitor-info > h3{
     margin: 0px;
     font-size: 20px;
+    color: #10171D;
+}
+.visitor-info p, span{
+    font-size: 16px;
+    color: #3b4147;
 }
 .visitor-photo img{
     width: 120px;
