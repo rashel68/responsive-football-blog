@@ -16,7 +16,7 @@ a{
     display: flex;
     justify-content: center;
     padding: 42px 0px;
-    background-color: blue;
+    background-color: #2D25A0;
     margin-bottom: 70px;
 }
 .banner-container{
@@ -29,28 +29,19 @@ a{
     align-items: center;
     margin-bottom: 62px;
 }
-
-/* .toggle-button{
-    display: none;
-}
-.toggle-button > a{
-    color: white;
-    font-size: 18px;
-    display: inline;
-} */
 .nav ul{
+    position: relative;
     margin: 0;
     list-style: none;
     display: inline;
 }
 .nav li{
-    
     float: left;
 }
 .nav li a{
+    font-size: 16px;
     color: white;
     margin-right: 35px;
-    font-size: 16px;
 }
 .login button{
     padding: 10px 24px;
@@ -81,6 +72,7 @@ a{
 .watch {
     padding: 10px 24px;
     background-color: #E02C6D;
+    font-size: 16px;
     color: white;
 }
 .watch > i{
@@ -262,9 +254,10 @@ a{
          width: 100%;
          margin: 0px 35px;
      }
+    
     .banner-content{
         grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 50px;
+        grid-row-gap: 60px;
         align-items: center;
     }
     .blog-item{
@@ -309,9 +302,7 @@ a{
     .footer-logo img{
         width: 85%;
     }
-    .nav-part{
-        display: none;
-    }
+    
     
     
  }
