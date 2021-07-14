@@ -1,3 +1,4 @@
+/*poopins fonts style  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 body{
@@ -7,6 +8,8 @@ body{
 a{
     text-decoration: none;
 }
+
+/* banner part start */
 .banner-part{
     display: flex;
     justify-content: center;
@@ -42,6 +45,7 @@ a{
     background-color: #E02C6D;
     color: white;
     border: none;
+    cursor: pointer;
 }
 .login button i{
     margin-right: 8px;
@@ -78,12 +82,19 @@ a{
     transform: skew(-5deg);
 }
 
+/* blogs-part start */
 .blogs-part{
+    display: flex;
+    justify-content: center;
+}
+.blog-container{
+    width: 1050px;
+}
+.blog-items{
     display: grid;
-    grid-template-columns: repeat(3, 330px);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 27px;
-    justify-content: center;
     margin-bottom: 165px;
 }
 .blog{
@@ -106,6 +117,8 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     font-size: 16px;
     color: #6c6c6c;
 }
+
+/* highlight-part start */
 .highlight-part{
     display: flex;
     justify-content: center;
@@ -119,14 +132,29 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 .high-item{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
     justify-content: space-between;
     align-items: center;
 }
+.highlight-content > h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #0A0826;
+    margin: 0px;
+}
+.highlight-content > p{
+    font-size: 16px;
+    color: #6C6C6C;
+    padding-bottom: 20px;
+}
 .highlight-image img{
-    width: 567px;
+    width: 560px;
     height: 427px;
 }
-
+/*---------------------------
+ trending-visitor-part start 
+ ----------------------------*/
+ /* trending-part start */
 .trending-visitor-part{
     display: flex;
     justify-content: center;
@@ -135,8 +163,9 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     width: 1050px;
 }
 .trending-visitor-container h2 {
+    font-size: 30px;
     margin-top: 0px;
-    padding: 0px 0px 25px;
+    padding: 0px 0px 15px;
     border-bottom: 2px solid #dfdfdf;
 }
 .trending-item{
@@ -161,18 +190,25 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 50px;
 }
+/* visitor-part start */
 .visitor{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.visitor img{
+.visitor-info > h3{
+    margin: 0px;
+    font-size: 20px;
+}
+.visitor-photo img{
     width: 120px;
     height: 120px;
     margin-left: 15px;
     border: 4px solid #dfdfdf;
     border-radius: 100%;
 }
+
+/* footer-part start */
 .footer-item{
     display: flex;
     align-items: center;
@@ -195,4 +231,7 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     background-color: #e7e7e8;
     padding: 5px;
     border-radius: 100%;
+}
+.footer-copyright p{
+    font-size: 18px;
 }
